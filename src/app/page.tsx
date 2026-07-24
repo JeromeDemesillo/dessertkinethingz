@@ -1,19 +1,18 @@
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 
 /** The Home page. */
 const Home = () => (
   <main>
-    <Container id="landing-page" fluid className="py-3">
-      <Row className="align-middle text-center">
-        <Col xs={4}>
-          <Image src="next.svg" width="150px" alt="" />
-        </Col>
-
-        <Col xs={8} className="d-flex flex-column justify-content-center">
-          <h1>Jesus & Coffee</h1>
-          <p>It's about proclaiming Jesus</p>
-        </Col>
-      </Row>
+    <Container
+      id="landing-page"
+      fluid
+      className="d-flex flex-column align-items-center justify-content-center min-vh-100 text-center py-5"
+    >
+      <Image src="/logo.png" width={150} height={150} alt="Logo" className="mb-4" />
+      <div>
+        <h1>Jesus & Coffee</h1>
+        <p className="mt-3">It's about proclaiming Jesus</p>
+      </div>
     </Container>
   </main>
 );

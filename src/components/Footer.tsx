@@ -16,7 +16,6 @@ const Footer = () => (
         <br />
         Mon - Sat • 6 - 11 AM • Closed Thu & Sun
         <br />
-        
         <br />
         Say Hi
         <br />
