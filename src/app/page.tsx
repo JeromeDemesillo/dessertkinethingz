@@ -12,6 +12,7 @@ const Home = () => (
       <div>
         <h1>Jesus & Coffee</h1>
         <p className="mt-3">It's about proclaiming Jesus</p>
+        <p> Kapolei  • Wahiawa, Hawai'i</p>
       </div>
     </Container>
   </main>
