@@ -5,10 +5,16 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  background-color: #fbe7ee;
 }
 .wrapper {
   box-sizing: border-box;
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: #fbe7ee;
+}
+.site-footer {
+  background-color: #fbe7ee;
+  border-top: 3px solid #c96c8c;
 }
