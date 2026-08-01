@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="mt-auto py-3 site-footer">
     <Container>
       <Col className="text-center">
-        A pink trailer ministry pouring coffee, matcha, and prayer into Hawai'i.
+        A pink trailer ministry pouring coffee, matcha, and prayer into Hawai&apos;i.
         <br />
         <br />
         Visit
