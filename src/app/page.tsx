@@ -171,22 +171,137 @@ const Home = () => {
                 <div style={{ backgroundColor: '#fff', borderRadius: '1rem', padding: '0.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '0.75rem' }}>
                   <Image src="/IMG_7142.jpeg" alt="Matcha drink" width={220} height={150} style={{ objectFit: 'cover', borderRadius: '0.75rem', border: '2px solid #fff' }} />
                 </div>
-                <div style={{ color: '#5f7a2f', fontWeight: 700, fontSize: '1.1rem' }}>Matcha</div>
+                <div style={{ color: '#5f7a2f', fontWeight: 700, fontSize: '1.1rem', marginBottom: '0.5rem' }}>Matcha</div>
+                <div style={{ fontSize: '0.8rem', fontStyle: 'italic', color: '#5f7a2f', marginBottom: '0.75rem' }}>Ceremonial grade. Whisked to order.</div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', borderTop: '1px solid rgba(95, 122, 47, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Psalms</div>
+                    <div style={{ color: '#5f7a2f', fontSize: '0.8rem' }}>(Classic Matcha Latte)</div>
+                  </div>
+                  <div style={{ color: '#5f7a2f', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$7 / 8</div>
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', marginTop: '0.5rem', borderTop: '1px solid rgba(95, 122, 47, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Proverbs</div>
+                    <div style={{ color: '#5f7a2f', fontSize: '0.8rem' }}>(Strawberry Matcha)</div>
+                  </div>
+                  <div style={{ color: '#5f7a2f', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$7.5 / 8.5</div>
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', marginTop: '0.5rem', borderTop: '1px solid rgba(95, 122, 47, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Ruth</div>
+                    <div style={{ color: '#5f7a2f', fontSize: '0.8rem' }}>(Coconut Matcha)</div>
+                  </div>
+                  <div style={{ color: '#5f7a2f', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$7.5 / 8.5</div>
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', marginTop: '0.5rem', borderTop: '1px solid rgba(95, 122, 47, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Esther</div>
+                    <div style={{ color: '#5f7a2f', fontSize: '0.8rem' }}>(Vanilla Rose Matcha)</div>
+                  </div>
+                  <div style={{ color: '#5f7a2f', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$7.5 / 8.5</div>
+                </div>
               </div>
 
               <div style={{ backgroundColor: '#b7dff4', borderRadius: '1.25rem', padding: '1rem', width: 'min(100%, 320px)' }}>
                 <div style={{ backgroundColor: '#fff', borderRadius: '1rem', padding: '0.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '0.75rem' }}>
                   <Image src="/IMG_7138.jpeg" alt="Cold brew drink" width={220} height={150} style={{ objectFit: 'cover', borderRadius: '0.75rem', border: '2px solid #fff' }} />
                 </div>
-                <div style={{ color: '#2f5f7a', fontWeight: 700, fontSize: '1.1rem' }}>Cold Brew</div>
+                <div style={{ color: '#2f5f7a', fontWeight: 700, fontSize: '1.1rem', marginBottom: '0.5rem' }}>Cold Brew</div>
+                <div style={{ fontSize: '0.8rem', fontStyle: 'italic', color: '#2f5f7a', marginBottom: '0.75rem' }}>Slow steeped. Topped with our signature cold foams.</div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', borderTop: '1px solid rgba(47, 95, 122, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>John</div>
+                    <div style={{ color: '#2f5f7a', fontSize: '0.8rem' }}>(Sweet Cream Cold Brew)</div>
+                  </div>
+                  <div style={{ color: '#2f5f7a', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$6.5 / 7.5</div>
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', marginTop: '0.5rem', borderTop: '1px solid rgba(47, 95, 122, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Luke</div>
+                    <div style={{ color: '#2f5f7a', fontSize: '0.8rem' }}>(Strawberry Cold Foam)</div>
+                  </div>
+                  <div style={{ color: '#2f5f7a', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$7 / 8</div>
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', marginTop: '0.5rem', borderTop: '1px solid rgba(47, 95, 122, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Mark</div>
+                    <div style={{ color: '#2f5f7a', fontSize: '0.8rem' }}>(Salted Caramel Cold Foam)</div>
+                  </div>
+                  <div style={{ color: '#2f5f7a', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$7 / 8</div>
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', marginTop: '0.5rem', borderTop: '1px solid rgba(47, 95, 122, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Matthew</div>
+                    <div style={{ color: '#2f5f7a', fontSize: '0.8rem' }}>(Cookie Butter Cold Foam)</div>
+                  </div>
+                  <div style={{ color: '#2f5f7a', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$7 / 8</div>
+                </div>
               </div>
 
               <div style={{ backgroundColor: '#f7b7c9', borderRadius: '1.25rem', padding: '1rem', width: 'min(100%, 320px)' }}>
-                <div style={{ color: '#a43f63', fontWeight: 700, fontSize: '1.1rem' }}>Entry Menu</div>
+                <div style={{ color: '#a43f63', fontWeight: 700, fontSize: '1.1rem', marginBottom: '0.75rem' }}>Entry Menu</div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', borderTop: '1px solid rgba(164, 63, 99, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Genesis</div>
+                    <div style={{ color: '#7a4b63', fontSize: '0.8rem' }}>(Drip Coffee)</div>
+                  </div>
+                  <div style={{ color: '#a43f63', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$4 / 5</div>
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', marginTop: '0.5rem', borderTop: '1px solid rgba(164, 63, 99, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Exodus</div>
+                    <div style={{ color: '#7a4b63', fontSize: '0.8rem' }}>(Americano)</div>
+                  </div>
+                  <div style={{ color: '#a43f63', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$4.5 / 5.5</div>
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', marginTop: '0.5rem', borderTop: '1px solid rgba(164, 63, 99, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Numbers</div>
+                    <div style={{ color: '#7a4b63', fontSize: '0.8rem' }}>(Hot Tea)</div>
+                  </div>
+                  <div style={{ color: '#a43f63', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$4 / 5</div>
+                </div>
               </div>
 
               <div style={{ backgroundColor: '#f7b7c9', borderRadius: '1.25rem', padding: '1rem', width: 'min(100%, 320px)' }}>
-                <div style={{ color: '#a43f63', fontWeight: 700, fontSize: '1.1rem' }}>Keiki Menu</div>
+                <div style={{ color: '#a43f63', fontWeight: 700, fontSize: '1.1rem', marginBottom: '0.5rem' }}>Keiki Menu</div>
+                <div style={{ fontSize: '0.8rem', fontStyle: 'italic', color: '#7a4b63', marginBottom: '0.75rem' }}>For the little ones. 12oz.</div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', borderTop: '1px solid rgba(164, 63, 99, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Jonah</div>
+                    <div style={{ color: '#7a4b63', fontSize: '0.8rem' }}>(Strawberry Steamer)</div>
+                  </div>
+                  <div style={{ color: '#a43f63', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$5</div>
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', marginTop: '0.5rem', borderTop: '1px solid rgba(164, 63, 99, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>Noah</div>
+                    <div style={{ color: '#7a4b63', fontSize: '0.8rem' }}>(Vanilla Steamer)</div>
+                  </div>
+                  <div style={{ color: '#a43f63', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$5</div>
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingTop: '0.5rem', marginTop: '0.5rem', borderTop: '1px solid rgba(164, 63, 99, 0.25)' }}>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ color: '#5a2a3d', fontWeight: 600 }}>David</div>
+                    <div style={{ color: '#7a4b63', fontSize: '0.8rem' }}>(Chocolate Milk)</div>
+                  </div>
+                  <div style={{ color: '#a43f63', fontWeight: 700, whiteSpace: 'nowrap', marginLeft: '0.75rem' }}>$5</div>
+                </div>
               </div>
 
               <div style={{ backgroundColor: '#cfe8a9', borderRadius: '1.25rem', padding: '1rem', width: 'min(100%, 320px)' }}>
